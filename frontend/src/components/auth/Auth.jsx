@@ -31,7 +31,7 @@ const Auth = () => {
               className="auth-btn login"
               onClick={() => {
                 dispatch(clearError());
-                dispatch(openAuthModal("login"));
+                dispatch(openAuthModal("Login"));
               }}
             >
               Login
